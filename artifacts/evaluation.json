@@ -1,0 +1,33 @@
+{
+  "data": "data/synthetic_exercises.csv",
+  "synthetic_data_warning": "Synthetic exercise outcomes are not operational evidence",
+  "rows": {
+    "train": 900,
+    "validation": 300,
+    "test": 300
+  },
+  "ridge": 1.0,
+  "chosen_alpha": 0.25,
+  "validation": {
+    "ips": 0.2833333333333333,
+    "snips": 0.23943661971830985,
+    "matching_rows": 71,
+    "total_rows": 300,
+    "effective_sample_size": 71.0
+  },
+  "test_policy": {
+    "ips": 0.3333333333333333,
+    "snips": 0.2702702702702703,
+    "matching_rows": 74,
+    "total_rows": 300,
+    "effective_sample_size": 74.0
+  },
+  "test_fixed_scenario_baseline": {
+    "ips": 0.21666666666666667,
+    "snips": 0.18571428571428572,
+    "matching_rows": 70,
+    "total_rows": 300,
+    "effective_sample_size": 70.0
+  },
+  "observed_test_gap_rate": 0.23333333333333334
+}

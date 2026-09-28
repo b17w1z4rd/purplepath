@@ -1,0 +1,7 @@
+{
+  "edr_coverage": 0.75,
+  "identity_coverage": 0.35,
+  "network_coverage": 0.55,
+  "logging_maturity": 0.40,
+  "asset_criticality": 0.80
+}
